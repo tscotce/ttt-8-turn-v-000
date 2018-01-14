@@ -26,8 +26,8 @@ def input_to_index(input)
   index = input.to_i - 1  
 end
 
-def move(array, index, character = "X")
-    array[index] = character 
+def move(board, index, character = "X")
+    board[index] = character 
  end 
 
 def turn(board)
@@ -40,5 +40,5 @@ def turn(board)
   index = input_to_index(input)
     return true
   end 
-  move(array, index, character)
+  move(board, index, character)
 end
