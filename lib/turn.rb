@@ -41,4 +41,5 @@ def turn(board)
     return true
   end 
   move(board, index, character = "X")
+  display_board(board)
 end
