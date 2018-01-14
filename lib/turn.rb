@@ -32,6 +32,5 @@ def move(array, index, character = "X")
 
 def turn(board)
   puts "Please enter 1-9:"
-  input_to_index(user_input) do 
-end 
+  input_to_index do 
 end
