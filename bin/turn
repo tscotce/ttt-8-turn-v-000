@@ -6,7 +6,7 @@ display_board (board)
 puts "Where would you like to go?" 
 turn (board) 
 input = gets.strip
-puts user_input = input_to_index(input)
+puts index = input_to_index(input)
 puts move(board, index)
 puts display_board(board)
 
