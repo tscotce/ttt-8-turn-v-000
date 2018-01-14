@@ -7,7 +7,7 @@ def display_board (board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
 end 
 
 def valid_move? (board, index)
-  if position_taken?
+  if position_taken?(board, index)
     return true 
   else 
     return false  
