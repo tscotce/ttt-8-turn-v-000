@@ -7,10 +7,8 @@ def display_board (board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
 end 
 
 def valid_move? (board, index)
-  if board[index] == " "
+  if position_taken?
     return true 
-  elsif board[index] == index.between (0, 8)
-   return true
   else 
     return false  
   end
